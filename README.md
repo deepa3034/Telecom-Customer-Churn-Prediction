@@ -50,7 +50,7 @@ The analysis identified several customer segments associated with higher churn r
 
 These findings highlight customer segments that may benefit from retention analysis.
 
-## 🤖 Machine Learning Models
+##  Machine Learning Models
 
 Three classification algorithms were trained and evaluated.
 
