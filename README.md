@@ -1,12 +1,12 @@
-# 📊 Telecom Customer Churn Prediction Using Machine Learning
+#  Telecom Customer Churn Prediction Using Machine Learning
 
-## 📌 Project Overview
+##  Project Overview
 
 This project predicts whether a telecom customer is at risk of leaving the company using Machine Learning.
 
 The project includes exploratory data analysis, data preprocessing, model training, model evaluation, threshold optimization, and an interactive Streamlit application for predicting customer churn.
 
-## 🎯 Project Objectives
+##  Project Objectives
 
 - Analyze customer churn patterns.
 - Identify factors associated with customer churn.
@@ -14,7 +14,7 @@ The project includes exploratory data analysis, data preprocessing, model traini
 - Improve churn detection through classification threshold optimization.
 - Develop an interactive application for predicting customer churn risk.
 
-## 📂 Dataset
+##  Dataset
 
 **Dataset:** IBM Telco Customer Churn
 
@@ -26,7 +26,7 @@ The project includes exploratory data analysis, data preprocessing, model traini
 
 The dataset includes customer demographics, subscription details, contract types, payment methods, and billing information.
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - Python
 - Pandas
@@ -37,7 +37,7 @@ The dataset includes customer demographics, subscription details, contract types
 - Joblib
 - Streamlit
 
-## 🔍 Exploratory Data Analysis
+##  Exploratory Data Analysis
 
 The analysis identified several customer segments associated with higher churn rates.
 
@@ -64,7 +64,7 @@ Three classification algorithms were trained and evaluated.
 
 Logistic Regression achieved the highest ROC-AUC score among the three evaluated models.
 
-## ⚙️ Classification Threshold Optimization
+##  Classification Threshold Optimization
 
 The initial model used a classification threshold of 50%.
 
@@ -86,7 +86,7 @@ Reducing the threshold improved churn recall from approximately **55.1% to 74.3%
 
 This allowed the model to identify more customers who actually churned, although it also increased false-positive predictions.
 
-## 💡 Key Insights
+##  Key Insights
 
 - Customers with shorter tenure showed higher observed churn rates.
 - Month-to-month contracts were associated with higher churn.
@@ -96,7 +96,7 @@ This allowed the model to identify more customers who actually churned, although
 
 These findings describe associations and model predictions, not proven causes of churn.
 
-## 🖥️ Streamlit Prediction Application
+##  Streamlit Prediction Application
 
 An interactive Streamlit application was developed to predict customer churn risk.
 
@@ -110,7 +110,7 @@ An interactive Streamlit application was developed to predict customer churn ris
 
 The application allows users to test different customer profiles without retraining the model.
 
-## ▶️ How to Run the Application
+##  How to Run the Application
 
 **1. Clone or download this repository.**
 
@@ -130,7 +130,7 @@ streamlit run telecom_churn_app.py
 
 Enter customer details and click **Predict Customer Churn** to view the prediction.
 
-## 📁 Project Files
+##  Project Files
 
 | File | Description |
 |---|---|
@@ -142,7 +142,7 @@ Enter customer details and click **Predict Customer Churn** to view the predicti
 | `requirements.txt` | Python dependencies |
 | `WA_Fn-UseC_-Telco-Customer-Churn.csv` | Telecom churn dataset |
 
-## ⚠️ Limitations
+##  Limitations
 
 - The model was evaluated using a historical telecom churn dataset.
 - Predictions may not generalize to every telecom company.
@@ -150,7 +150,7 @@ Enter customer details and click **Predict Customer Churn** to view the predicti
 - The application is intended as a Machine Learning demonstration.
 - Model performance should be monitored and validated before real-world business deployment.
 
-## 📌 Conclusion
+##  Conclusion
 
 This project demonstrates an end-to-end Machine Learning workflow, from exploratory data analysis and model comparison to threshold optimization and application development.
 
